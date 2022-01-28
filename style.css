@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+#Nome{
+  font-family:Cedarville Cursive;
+}
+body{
+  background-color: greenyellow;
+}
+p1{
+  font-weight: bold;
+  font-style: italic;
+}
+p3{
+  font-weight: bold;
+  text-decoration:underline;
+}
+.resiliencia{
+  font-size: 33px;
+}
+.estudioso{
+  font-size: 25px;
+}
+.atleta{
+  font-size: 20px;
+}
+.sociavel{
+  font-size: 18px;;
+}
+.familia{
+  font-size: 15px;
+}
+#foto {
+    float: left;
+    margin-right: 10px;
+    height: 150px;
+    padding:10px;
+    background-color: grey;
+} 
+#Nome {
+    text-align: center;
+}
+.impar {
+    text-decoration: underline;
+}
+.informacoes {
+    padding:10px;
+    margin-bottom: 5px;
+}

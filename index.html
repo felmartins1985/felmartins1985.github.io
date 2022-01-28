@@ -3,61 +3,32 @@
   <head>
     <meta charset="UTF-8">
     <title>Meu Portfolio</title>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
-      #Nome{
-        font-family:Cedarville Cursive;
-      }
-      body{
-        background-color: greenyellow;
-      }
-      p1{
-        font-weight: bold;
-        font-style: italic;
-      }
-      p3{
-        font-weight: bold;
-        text-decoration:underline;
-      }
-      .resiliencia{
-        font-size: 33px;
-      }
-      .estudioso{
-        font-size: 25px;
-      }
-      .atleta{
-        font-size: 20px;
-      }
-      .sociavel{
-        font-size: 18px;
-      }
-      .familia{
-        font-size: 15px;
-      }
-      
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">  
   </head>
   <body>
-    <h1 id="Nome">Nome: Felipe Costa Martins</h1>
-    <img id= "foto" src="perfil.png" alt="foto do meu perfil no Portfolio" width="100px"><br>
-    <ol> Índice:
+    <div>
+      <h1 id="Nome">Nome: Felipe Costa Martins</h1>
+    </div>
+    <ol class='informacoes'> Índice:
       <li><a href="#Nome"> Nome Completo</a></li>
       <li><a href="foto"> Foto do Perfil</a></li>
       <li><a href="cidade">Cidade onde moro</a></li>
       <li><a href="#habilidades"> Habilidades </a></li>      
-    </ol>
-    <p1> Nacionalidade: Brasil<br></p1> 
-    <p2> Data de Nascimento: 17/06/1985 <br></p2>
-    <p3 id="cidade"> Cidade: Belo Horizonte/MG <br> </p3>
-    <p4> Eu sou formado em Direito e estudei durante alguns anos para concurso público.<br>
-     Contudo, resolvi mudar meu foco profissional <em>e ingressar na área de Desenvolvimento Web.</em>
-    </p4>
+   <div>
+      </ol>
+        <p><img id= "foto" src="perfil.png" alt="foto do meu perfil no Portfolio" width="100px"><br>
+        </p1>  
+        <p> Nacionalidade: Brasil<br>
+        <p> Data de Nascimento: 17/06/1985 <br>
+        <p id="cidade"> Cidade: Belo Horizonte/MG <br>
+        <p> Eu sou formado em Direito e estudei durante alguns anos para concurso público. Contudo, resolvi mudar meu foco profissional <em>e ingressar na área de Desenvolvimento Web.</em>
+      </div>
     <ol id="habilidades"> Habilidades:
-      <li class="resiliencia"><strong>Resiliência</strong></li>
+      <li class="resiliencia impar"><strong>Resiliência</strong></li>
       <li class= "estudioso"> Estudioso</li>
-      <li class="atleta"> Atleta</li>
+      <li class="atleta impar"> Atleta</li>
       <li class= "sociavel"> Sociável</li>
-      <li class="familia"> Família</li>
+      <li class="familia impar"> Família</li>
     </ol>  
     <a href="https://www.betrybe.com/" target="_blank"> Trybe- Escola em que estudo<br> 
     para me tornar um Desenvolvedor Web  </a>
